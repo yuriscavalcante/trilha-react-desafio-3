@@ -13,7 +13,7 @@ export const Container = styled.main`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 300px;
+  max-width: 350px;
 `;
 
 export const Column = styled.div`
@@ -40,7 +40,7 @@ export const Title = styled.h2`
   color: #ffffff;
 `;
 
-export const TitleLogin = styled.p`
+export const TitleRegister = styled.p`
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -49,7 +49,7 @@ export const TitleLogin = styled.p`
   margin-bottom: 8px;
 `;
 
-export const SubtitleLogin = styled.p`
+export const SubtitleRegister = styled.p`
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;

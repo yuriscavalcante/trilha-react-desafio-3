@@ -34,6 +34,10 @@ const Login = () => {
         }
     };
 
+    const handleNavigate = () => {
+        navigate('/register')
+    }
+
     console.log('errors', errors);
 
     return (<>
@@ -56,7 +60,7 @@ const Login = () => {
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <CriarText onClick={handleNavigate}>Criar Conta</CriarText>
                 </Row>
                 </Wrapper>
             </Column>
